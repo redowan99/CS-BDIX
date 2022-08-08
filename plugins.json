@@ -1,0 +1,71 @@
+[
+    {
+        "iconUrl": "http://new.circleftp.net/static/media/logo.fce2c9029060a10687b8.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "fileSize": 15837,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Redowan"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 7,
+        "internalName": "Circleftp",
+        "description": "Only works in Bangladesh. Works even in internet Shutdown",
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/Circleftp.cs3",
+        "name": "Circleftp"
+    },
+    {
+        "iconUrl": "https://www.oomoye.co/favicon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "fileSize": 9767,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Redowan"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Cartoon"
+        ],
+        "version": 3,
+        "internalName": "Oomoye",
+        "description": "Indian movie site",
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/Oomoye.cs3",
+        "name": "Oomoye"
+    },
+    {
+        "iconUrl": "https://skymovieshd.diy/images/logo2.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "fileSize": 10218,
+        "status": 0,
+        "language": "en",
+        "authors": [
+            "Redowan"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "SkymoviesHD",
+        "description": "300MB, 480p, 720p, 1080p Full Movies In SkymoviesHD",
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/SkymoviesHD.cs3",
+        "name": "SkymoviesHD"
+    }
+]
