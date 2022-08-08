@@ -1,0 +1,43 @@
+[
+    {
+        "iconUrl": "http://new.circleftp.net/static/media/logo.fce2c9029060a10687b8.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/redowan99/CS-BDIX",
+        "fileSize": 13914,
+        "status": 1,
+        "authors": [
+            "Redowan"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AnimeMovie",
+            "Anime",
+            "OVA",
+            "Documentary"
+        ],
+        "version": 3,
+        "internalName": "Circleftp",
+        "description": "Largest FTP In Bangladesh",
+        "url": "https://raw.githubusercontent.com/redowan99/CS-BDIX/builds/Circleftp.cs3",
+        "name": "Circleftp"
+    },
+    {
+        "iconUrl": "http://vdomela.com/images/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/redowan99/CS-BDIX",
+        "fileSize": 8526,
+        "status": 1,
+        "authors": [
+            "Redowan"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "Vdomela",
+        "description": "This site is no longer updated but still works",
+        "url": "https://raw.githubusercontent.com/redowan99/CS-BDIX/builds/Vdomela.cs3",
+        "name": "Vdomela"
+    }
+]
