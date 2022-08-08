@@ -1,0 +1,408 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/9kMovies.cs3",
+        "status": 1,
+        "version": 11,
+        "name": "9kMovies",
+        "internalName": "9kMovies",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "Bangla & Hindi Movies",
+        "fileSize": 16446,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "NSFW"
+        ],
+        "iconUrl": "https://9kmovies.llc/wp-content/uploads/2026/06/9kmovies-logo1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-f1db082792182fa5b2ee25c13e963268666a6fa855a0de7cadb7348fef92907f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BanglaPlex.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "BanglaPlex",
+        "internalName": "BanglaPlex",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "BanglaPlex Movies & Web Series",
+        "fileSize": 35067,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://banglaplex.biz/uploads/system_logo/favicon_61916a9838d38.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-0e087450fa944b505ffdad56d21cc7e9413ff4c8d1db586d8040a76c0db345c3"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixBdipTV.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "BdixBdipTV",
+        "internalName": "BdixBdipTV",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "BDIX Live Tv in Bangladesh",
+        "fileSize": 16863,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "http://tv.bdiptv.net/assets/images/Live1.jpeg",
+        "apiVersion": 1,
+        "fileHash": "sha256-8f7264480478dd08fcd9ed584b2484c8588f7fdc0927abbd92d57fdfa9164d76"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixCircleftp.cs3",
+        "status": 1,
+        "version": 27,
+        "name": "BdixCircleftp",
+        "internalName": "BdixCircleftp",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "Only works in Bangladesh. Works even in internet Shutdown",
+        "fileSize": 22123,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "iconUrl": "http://new.circleftp.net/static/media/logo.fce2c9029060a10687b8.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-71823213530de9f96a5faba45ec513da8dd5614a126380df484eb391cc1ce04d"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixCloudTV.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "BdixCloudTV",
+        "internalName": "BdixCloudTV",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "BDIX Live Tv in Bangladesh",
+        "fileSize": 17223,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "http://172.19.178.180/assets/logos/Cloudtv.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-774c9e863c2697223ac33c6e3c884b86363085c433ee857c657254e25312cf71"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixDflix.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "BdixDflix",
+        "internalName": "BdixDflix",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "Discovery BDIX Provider",
+        "fileSize": 19036,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "iconUrl": "https://dflix.discoveryftp.net/assets/images/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-27448c29f726c03a1c0f444572be3b9613a665e1954e2138b541f14eb608f1c2"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixDhakaFlix.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "BdixDhakaFlix",
+        "internalName": "BdixDhakaFlix",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "Dhaka Flix BDIX Provider",
+        "fileSize": 34317,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/refs/heads/master/BdixDhakaFlix/icon.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-eaafcac71dab51a4dd851785ce64e6a5df32627f6e2c6ea6db388d4db735a2ce"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixICCFtp.cs3",
+        "status": 0,
+        "version": 3,
+        "name": "BdixICCFtp",
+        "internalName": "BdixICCFtp",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "ICC BDIX Provider",
+        "fileSize": 15539,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "iconUrl": "http://10.16.100.244/images/logo-purple.svg",
+        "apiVersion": 1,
+        "fileHash": "sha256-24b6b4c6675df04301b79beb50710f74ab34f944126a954a6d807027feeb90e6"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixMyMovieBazarTV.cs3",
+        "status": 0,
+        "version": 6,
+        "name": "BdixMyMovieBazarTV",
+        "internalName": "BdixMyMovieBazarTV",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "BDIX Live Tv in Bangladesh",
+        "fileSize": 9656,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://mymoviebazar.net/assets/commons/header/logo1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-9d71ca9a22e4ec0acd17a83befb9d49641cb1e947caaf62bce298ed7b980f89b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/BdixRoarZoneTV.cs3",
+        "status": 0,
+        "version": 6,
+        "name": "BdixRoarZoneTV",
+        "internalName": "BdixRoarZoneTV",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "BDIX Live Tv in Bangladesh",
+        "fileSize": 10702,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://roarzone.info/logo.webp",
+        "apiVersion": 1,
+        "fileHash": "sha256-e2b11a4238d0ead35e6f0755e171f9e6708614f763dcd72b9d6c329551300620"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/EmwBD.cs3",
+        "status": 0,
+        "version": 16,
+        "name": "EmwBD",
+        "internalName": "EmwBD",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "Movie website in Bangladesh",
+        "fileSize": 12796,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AnimeMovie",
+            "AsianDrama",
+            "NSFW"
+        ],
+        "iconUrl": "https://www.emwbd.xyz/wp-content/uploads/2024/07/cropped-20240718_170236-192x192.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-f0b2b9d3f4c1ba22a828157e6cb7ee2ca6137f5f8ab9d4ec8259d6e0bde62c96"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/FootReplays.cs3",
+        "status": 0,
+        "version": 6,
+        "name": "FootReplays",
+        "internalName": "FootReplays",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "FootBall Matches Replays and Highlights",
+        "fileSize": 11048,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "en",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.footreplays.com/wp-content/uploads/2024/11/cropped-footreplays-favicon-192x192.webp",
+        "apiVersion": 1,
+        "fileHash": "sha256-4bd17710924bea32c9db205a8774fe7e86cc087231818a336afcc05795ff25d0"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/FullReplays.cs3",
+        "status": 0,
+        "version": 6,
+        "name": "FullReplays",
+        "internalName": "FullReplays",
+        "authors": [
+            "Redowan"
+        ],
+        "description": "Watch Football Full Match Replay and Shows",
+        "fileSize": 11022,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "en",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.fullreplays.com/wp-content/uploads/2023/05/logo-ball-150x150.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-162230f11f5d95232e35d172e4fb985839217d2563963a718349741d776b0f8b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/FullyMaza.cs3",
+        "status": 0,
+        "version": 7,
+        "name": "FullyMaza",
+        "internalName": "FullyMaza",
+        "authors": [
+            "Redowan"
+        ],
+        "fileSize": 11826,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AnimeMovie",
+            "Cartoon"
+        ],
+        "iconUrl": "https://fibwatch.online/themes/default/img/fibwatch-logo-new.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-a7b89b264d96fc938eb7c5db91d8fa957131e476ea0b7dc357594e6c47ec9380"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/MoviPK.cs3",
+        "status": 0,
+        "version": 4,
+        "name": "MoviPK",
+        "internalName": "MoviPK",
+        "authors": [
+            "MoviPK"
+        ],
+        "fileSize": 10567,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.movi.pk/wp-content/uploads/2023/06/apple-touch-icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-f051f5ecf103825c1941a3cbc64e67e209d2d66c0bf90b0d3235464e224b19fa"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/Mp4Moviez.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "Mp4Moviez",
+        "internalName": "Mp4Moviez",
+        "authors": [
+            "salman731"
+        ],
+        "description": "Download Mp4Moviez free full movies, high quality movies, latest movies from Mp4Moviez. Mp4moviez is number one entertainment hollywood bollywood website and provide free Mp4moviez full movie download facility",
+        "fileSize": 13275,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "NSFW"
+        ],
+        "iconUrl": "https://www.mp4moviez.glass/images/mp4moviez.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3b2254838b38792f54f0b014fc8a4401a7e83f90d3d8ca12043a36b1c9c8c9b1"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/TheMoviesFlix.cs3",
+        "status": 0,
+        "version": 6,
+        "name": "TheMoviesFlix",
+        "internalName": "TheMoviesFlix",
+        "authors": [
+            "salman731,Redowan"
+        ],
+        "description": "720p Movies, 1080p movies, Dual Audio Movies, Hindi Dubbed Series, Hollywood Movies",
+        "fileSize": 27276,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "NSFW"
+        ],
+        "iconUrl": "https://themoviesflix.it.com/wp-content/uploads/2024/12/cropped-cropped-favicon-32x32-1-180x180.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3b3ed8c66f49f836b3c7a717e9a285f16d41769aa1c477a1e7e1d3f2753dc448"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/redowan99/Redowan-CloudStream/builds/WatchMoviesPk.cs3",
+        "status": 0,
+        "version": 3,
+        "name": "WatchMoviesPk",
+        "internalName": "WatchMoviesPk",
+        "authors": [
+            "salman731"
+        ],
+        "description": "Watch Online Movies in HD Print Quality Free Download,Watch Full Movies Online Bollywood Movies Download Latest Hollywood Movies in DVD Print Quality Free",
+        "fileSize": 12297,
+        "repositoryUrl": "https://github.com/redowan99/Redowan-CloudStream",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.watch-movies.com.pk/wp-content/uploads/2022/05/logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-0f93211265df4f50eb787705c5c22f457e0db08c11cdf3fd332a26cf0aca1ad1"
+    }
+]
