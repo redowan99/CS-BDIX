@@ -17,10 +17,12 @@ import com.lagradost.cloudstream3.newMovieSearchResponse
 import com.lagradost.cloudstream3.newTvSeriesLoadResponse
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.loadExtractor
+import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 
 open class NineKMoviesProvider : MainAPI() {
     override var mainUrl = "https://9kmovies.llc"
+    open val backupUrl = "https://9kmovies.int.in"
     override var name = "9kMovies"
     override var lang = "en"
     override val hasMainPage = true
@@ -41,11 +43,25 @@ open class NineKMoviesProvider : MainAPI() {
         "/category/18-movie-hd/" to "18+ Movies"
     )
 
+    private suspend fun fetchDoc(urlPath: String): Document {
+        val targetUrl = if (urlPath.startsWith("http")) urlPath else "$mainUrl$urlPath"
+        return try {
+            app.get(targetUrl, referer = "$mainUrl/").document
+        } catch (_: Exception) {
+            val fallbackUrl = if (urlPath.startsWith("http")) {
+                urlPath.replace("9kmovies.llc", "9kmovies.int.in")
+            } else {
+                "$backupUrl$urlPath"
+            }
+            app.get(fallbackUrl, referer = "$backupUrl/").document
+        }
+    }
+
     override suspend fun getMainPage(
         page: Int, request: MainPageRequest
     ): HomePageResponse {
-        val url = if (request.data.isBlank()) "$mainUrl/page/$page/" else "$mainUrl${request.data}page/$page/"
-        val doc = app.get(url, referer = "$mainUrl/").document
+        val path = if (request.data.isBlank()) "/page/$page/" else "${request.data}page/$page/"
+        val doc = fetchDoc(path)
         val home = doc.select(".thumb").mapNotNull { toResult(it) }.distinctBy { it.url }
         return newHomePageResponse(request.name, home, hasNext = true)
     }
@@ -64,14 +80,14 @@ open class NineKMoviesProvider : MainAPI() {
     }
 
     override suspend fun search(query: String): List<SearchResponse> {
-        val doc = app.get("$mainUrl/search/$query", referer = "$mainUrl/").document
+        val doc = fetchDoc("/search/$query")
         val searchResponse = doc.select(".thumb")
         return searchResponse.mapNotNull { toResult(it) }.distinctBy { it.url }
     }
 
     override suspend fun load(url: String): LoadResponse {
-        val doc = app.get(url, referer = "$mainUrl/").document
-        val title = doc.selectFirst("h1, h2, .entry-title")?.text()?.trim() ?: name
+        val doc = fetchDoc(url)
+        val title = doc.selectFirst("h1.page-title > span.material-text, h1.page-title, h1, h2, .entry-title")?.text()?.trim() ?: name
         val imageUrl = doc.selectFirst(".page-body img, .entry-content img, article img")?.attr("src")
         
         val story = doc.select(".page-body p, .entry-content p, article p").mapNotNull { p ->
@@ -114,7 +130,11 @@ open class NineKMoviesProvider : MainAPI() {
         callback: (ExtractorLink) -> Unit
     ): Boolean {
         if (data.contains("uptobhai.blog")) {
-            val pageRes = app.get(data, referer = "$mainUrl/")
+            val pageRes = try {
+                app.get(data, referer = "$mainUrl/")
+            } catch (_: Exception) {
+                app.get(data, referer = "$backupUrl/")
+            }
             val form = pageRes.document.selectFirst("form")
             
             val params = mutableMapOf<String, String>()
@@ -139,7 +159,11 @@ open class NineKMoviesProvider : MainAPI() {
                 }
             }
         } else {
-            val doc = app.get(data).document
+            val doc = try {
+                app.get(data, referer = "$mainUrl/").document
+            } catch (_: Exception) {
+                app.get(data, referer = "$backupUrl/").document
+            }
             doc.select("a[href]").forEach { aTag ->
                 val link = aTag.attr("href")
                 if (link.startsWith("http")) {
