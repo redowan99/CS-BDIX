@@ -3,8 +3,9 @@ import com.lagradost.cloudstream3.gradle.CloudstreamExtension
 import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.kotlin.dsl.register
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
+
+
 
 buildscript {
     repositories {
@@ -45,8 +46,8 @@ fun Project.android(configuration: LibraryExtension.() -> Unit) {
 }
 
 subprojects {
-    apply(plugin = "com.android.library")
-    apply(plugin = "com.lagradost.cloudstream3.gradle")
+    plugins.apply("com.android.library")
+    plugins.apply("com.lagradost.cloudstream3.gradle")
 
     cloudstream {
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/redowan99/Redowan-CloudStream")
@@ -69,16 +70,16 @@ subprojects {
             sourceCompatibility = JavaVersion.VERSION_1_8
             targetCompatibility = JavaVersion.VERSION_1_8
         }
+    }
 
-        tasks.withType<KotlinJvmCompile> {
-            compilerOptions {
-                jvmTarget.set(JvmTarget.JVM_1_8)
-                freeCompilerArgs.addAll(
-                    "-Xno-call-assertions",
-                    "-Xno-param-assertions",
-                    "-Xno-receiver-assertions",
-                )
-            }
+    tasks.withType<KotlinJvmCompile> {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_1_8)
+            freeCompilerArgs.addAll(
+                "-Xno-call-assertions",
+                "-Xno-param-assertions",
+                "-Xno-receiver-assertions",
+            )
         }
     }
 
